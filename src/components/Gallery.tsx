@@ -31,7 +31,7 @@ const Gallery = () => (
         ))}
       </div>
       <p className="text-center text-gray-500 mt-8">
-        Gallery space for Kate's artworks coming soon.
+        Gallery space for Kate&apos;s artworks coming soon.
       </p>
     </div>
   </section>

@@ -11,7 +11,7 @@ const About = () => (
         </CardHeader>
         <CardContent>
           <p className="text-lg text-gray-700 text-center">
-            Hi! I’m Kate, an artist specializing in pencil and charcoal
+            Hi! I&apos;m Kate, an artist specializing in pencil and charcoal
             drawings. My passion is capturing emotion and detail in every
             portrait and illustration. Each piece is crafted with patience,
             love, and a touch of soul. Thank you for visiting my gallery and
