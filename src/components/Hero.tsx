@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Instagram, Twitter, Mail } from "lucide-react";
+import { Instagram, Twitter, Mail, ArrowRight, Sparkles } from "lucide-react";
 
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
@@ -62,7 +62,7 @@ const Hero = () => {
               animate={{ x: [0, 4, 0] }}
               transition={{ duration: 1.5, repeat: Infinity }}
             >
-              →
+              <ArrowRight className="w-5 h-5" />
             </motion.div>
           </button>
           <button
@@ -75,7 +75,7 @@ const Hero = () => {
               animate={{ scale: [1, 1.2, 1] }}
               transition={{ duration: 2, repeat: Infinity }}
             >
-              ✨
+              <Sparkles className="w-5 h-5" />
             </motion.div>
           </button>
         </motion.div>
